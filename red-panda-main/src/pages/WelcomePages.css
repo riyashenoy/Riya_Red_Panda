@@ -1,0 +1,35 @@
+.scribble-span::after {
+  content: "";
+  display: inline-block;
+  background-image: url('../images/WelcomePageArt/Yellow_Scribble.png');
+  background-position-y: -10px;
+  background-position-x: -15px;
+  height: 40px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 1.2em;
+  left: 0;
+}
+
+.scribble-span {
+  position: relative;  
+}
+
+.circle-span::after {
+content: "";
+display: block;
+background-image: url('../images/WelcomePageArt/Circle_Drawing.png');
+height: 50px;
+width: 140px;
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+right: -32px;
+top: 10px;
+}
+
+.circle-span {
+  position: relative;
+}

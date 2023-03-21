@@ -1,0 +1,19 @@
+.drag-indicator {
+  animation: dragIndicator 3s ease-in-out infinite;
+}
+
+@keyframes dragIndicator {
+  0% {
+    left: 0%;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    left: calc(100% - 50px);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.tap-indicator {
+  animation: tapIndicator 2s ease-out infinite;
+}
+
+@keyframes tapIndicator {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

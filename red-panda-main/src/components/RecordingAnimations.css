@@ -1,0 +1,56 @@
+.audio-bar-animation {
+  animation: recordingAudio 4s infinite linear;
+}
+
+.audio-bar-animation:nth-child(2) {
+  animation: recordingAudio 2s infinite linear;
+  animation-delay: -3s;
+}
+
+.audio-bar-animation:nth-child(3) {
+  animation: recordingAudio 3s infinite linear;
+  animation-delay: -5s;
+}
+
+@keyframes recordingAudio {
+ 0% {
+   height: 40px;
+ }
+
+ 10% {
+   height: 30px;
+ }
+
+ 20% {
+   height: 60px;
+ }
+
+ 35% {
+   height: 50px;
+ }
+
+ 42% {
+   height: 30px;
+ }
+
+ 58% {
+   height: 55px;
+ }
+
+ 65% {
+   height: 50px;
+ }
+
+ 75% {
+   height: 70px;
+ }
+
+ 90% {
+   height: 50px;
+ }
+
+ 100% {
+   height: 40px;
+ }
+}
+

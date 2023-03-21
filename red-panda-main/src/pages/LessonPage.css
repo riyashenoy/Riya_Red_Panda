@@ -1,0 +1,47 @@
+.slideInFromRight {
+  position: relative;
+  left: 0vw;
+  animation: slideInFromRight ease-in-out 0.4s;
+}
+
+.slideInFromBottom {
+  position: relative;
+  bottom: 0vw;
+  animation: slideInFromBottom ease-in-out 0.4s;
+}
+
+.slideOutToLeft {
+  position: relative;
+  left: -150vw;
+  animation: slideOutToLeft ease-in-out 0.4s;
+}
+
+@keyframes slideInFromRight {
+  from {
+    left: 150vw;
+  }
+
+  to {
+    left: 0vw;
+  }
+}
+
+@keyframes slideOutToLeft {
+  from {
+    left: 0vw;
+  }
+
+  to {
+    left: -150vw;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    bottom: -100vh;
+  }
+
+  to {
+    bottom: 0;
+  }
+}
